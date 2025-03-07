@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Estrutura_repeti&#231;ao_tabuada"/>
+        <attribute name="authors" value="UJBHome"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-15 05:41:53 "/>
+        <attribute name="created" value="VUpCSG9tZTtERVNLVE9QLUgyNU01NDE7MjAyNC0xMi0xNTsiMDQ6MzA6NTEgIjsyNzky"/>
+        <attribute name="edited" value="VUpCSG9tZTtERVNLVE9QLUgyNU01NDE7MjAyNC0xMi0xNTsiMDU6NDE6NTMgIjsxOzI5MDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="0"/>
+            <assign variable="limite" expression="10"/>
+            <while expression="numero &lt;= limite">
+                <output expression="&quot;9 x &quot; &amp; numero &amp; &quot; = &quot; &amp; 9*numero" newline="True"/>
+                <assign variable="numero" expression="numero+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

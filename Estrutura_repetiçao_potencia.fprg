@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Estrutura_repeti&#231;ao_tabuada"/>
+        <attribute name="authors" value="UJBHome"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-15 06:26:36 "/>
+        <attribute name="created" value="VUpCSG9tZTtERVNLVE9QLUgyNU01NDE7MjAyNC0xMi0xNTsiMDQ6MzA6NTEgIjsyNzky"/>
+        <attribute name="edited" value="VUpCSG9tZTtERVNLVE9QLUgyNU01NDE7MjAyNC0xMi0xNTsiMDY6MjY6MzYgIjszOzI5MTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, expoente" type="Integer" array="False" size=""/>
+            <assign variable="base" expression="10"/>
+            <assign variable="expoente" expression="10"/>
+            <while expression="base&lt;= expoente">
+                <output expression="&quot;A potencia de &quot; &amp; base &amp; &quot; &#233; &quot; &amp; base*expoente" newline="True"/>
+                <assign variable="base" expression="expoente+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
