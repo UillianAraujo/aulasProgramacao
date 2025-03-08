@@ -12,9 +12,9 @@ velocidadeMaxima = 80
 
 if velocidade <= velocidadeMaxima:
     print("Não houve aplicação de multa")
-elif velocidade <= velocidadeMaxima + 10:
+elif velocidade > velocidadeMaxima and velocidade <= velocidadeMaxima + 10:
     print("Multa leve")
-elif velocidade <= velocidadeMaxima + 20:
+elif velocidade > velocidadeMaxima + 11 and velocidade <= velocidadeMaxima + 20:
     print("Multa grave")
 else:
     print("Multa gravíssima")
